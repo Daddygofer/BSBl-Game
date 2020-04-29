@@ -15,7 +15,7 @@ var runs = 0;
     } 
  }
  
- //activasion 
+ //activation
 document.getElementById("hit").innerHTML = 'hits: ' + hits;
 document.getElementById("out").innerHTML = 'outs: ' + outs;
 document.getElementById("run").innerHTML = 'runs: ' + runs;
