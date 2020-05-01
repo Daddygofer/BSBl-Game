@@ -10,13 +10,40 @@
             background-color: rgb(154, 165, 175);
             color: black;
         }
-        #startgame {
+        .button-center{
             background-color: ghostwhite;
-            text-align: center;
+            align-items: center;
             width: 200px;
             height: 50px;
             font-size: 18 px;
         }
+        h1 {
+            text-align: center;
+        }
+       .center {
+           align-items: center;
+       }
+       
+    #diamond-shield {
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom: 20px solid red;
+      position: relative;
+      top: 100px;
+      align-items: center;
+    }
+    #diamond-shield:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 20px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top: 70px solid rgb(13, 94, 17);
+    }
+  
     </style>
 <body>
 <!--number values of game-->
@@ -26,10 +53,13 @@
     <h1 id="run"></h1>
     
 <!--start Button-->
-    <button onclick="startgame()" id="startgame" type="button">
-       <p id="button-text">start Game</p>
+<div  style="text-align: center; border: 1px solid">
+ 
+    <button class="button-center" onclick="startgame()" id="startgame" type="button">
+       <h2 id="button-text">start Game</h2>
     </button>
-   
+   </div>
+   <div class="center" id="diamond-shield"></div>
 </body>
  <script src="Main.js"></script>
 </html>
