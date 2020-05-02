@@ -1,0 +1,12 @@
+//probabilities
+{ "hitters": [
+    {"Name":"onespot","obp":335,"avg":265 ,"HRchance":144,"trpchance":27,"dblechance":190,"singlechance":638,"walkchance":86}, //1
+    {"Name":"twoSpot","obp":345,"avg":272 ,"HRchance":165,"trpchance":22,"dblechance":196,"singlechance":605,"walkchance":0},//2
+    {"Name":"thrsespot","obp":342,"avg":267,"HRchance":186,"trpchance":15,"dblechance":209,"singlechance":590,"walkchance":93},//3
+    {"Name":"fourspot","obp":338,"avg":260,"HRchance":200,"trpchance":16,"dblechance":213,"singlechance":572,"walkchance":97},//4
+    {"Name":"fivespot","obp":325,"avg":256,"HRchance":175,"trpchance":16,"dblechance":200,"singlechance":605,"walkchance":84},//5
+    {"Name":"sixspot","obp":318,"avg":,"HRchance":0,"trpchance":0,"dblechance":0,"singlechance":0,"walkchance":0},//6
+    {"Name":"spot","obp":0,"avg":0 ,"HRchance":0,"trpchance":0,"dblechance":0,"singlechance":0,"walkchance":0},//7
+    {"Name":"spot","obp":0,"avg":0 ,"HRchance":0,"trpchance":0,"dblechance":0,"singlechance":0,"walkchance":0},//8
+    {"Name":"spot","obp":0,"avg":0 ,"HRchance":0,"trpchance":0,"dblechance":0,"singlechance":0,"walkchance":0}//9
+] } 
